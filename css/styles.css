@@ -1,0 +1,125 @@
+       #title {
+           background-color: #ff4c68;
+           color: #fff;
+           padding: 6% 15%;
+       }
+       
+       h1 {
+           font-family: 'Montserrat', sans-serif;
+           font-size: 3.5rem;
+           line-height: 1.5;
+           padding-top: 90px;
+       }
+       
+       .navbar {
+           padding-bottom: 90px;
+       }
+       
+       .navbar-brand {
+           font-family: ;
+           font-size: 3.2rem;
+           font-weight: bold;
+       }
+       
+       .nav-item {
+           padding: 0% 0%;
+       }
+       
+       .download-button {
+           margin: 5% 3% 5% 3%;
+       }
+       
+       .title-img {
+           width: 60%;
+           transform: rotate(33deg);
+           position: relative;
+           left: 20%;
+       }
+       
+       #features {
+           text-align: center;
+           padding: 7% 15%;
+           position: relative;
+           z-index: 1;
+       }
+       
+       h2 {
+           font-family: 'Montserrat', sans-serif;
+           font-size: 2.3rem;
+           line-height: 1.5;
+       }
+       
+       h3 {
+           font-family: 'Montserrat', sans-serif;
+       }
+       
+       .icon {
+           padding: 20px;
+           color: #ef8172;
+       }
+       
+       .icon:hover {
+           color: #ff4c68;
+       }
+       
+       #testimonials {
+           padding: 7% 15%;
+           text-align: center;
+           background-color: #ef8172;
+           color: whitesmoke;
+       }
+       
+       .testimonial-image {
+           width: 10%;
+           border-radius: 100%;
+       }
+       
+       #press {
+           background-color: #ef8172;
+           text-align: center;
+       }
+       
+       .press-logo {
+           width: 15%;
+       }
+       
+       #pricing {
+           padding: 100px;
+       }
+       
+       .pricing-column {
+           padding: 2% 3%;
+           text-align: center;
+       }
+       
+       #cta {
+           text-align: center;
+           background-color: #ff4c68;
+           color: #ffff;
+           font-weight: bold;
+           padding: 7% 15%;
+       }
+       
+       .cta-hading {
+           font-family: 'Montserrat', sans-serif;
+           font-size: 3.5rem;
+       }
+       
+       #footer {
+           text-align: center;
+           padding: 6% 12%;
+       }
+       
+       .social-icon {
+           padding: 20px 10px;
+       }
+       
+       @media (max-width:1028px) {
+           #title {
+               text-align: center;
+           }
+           .title-img {
+               position: static;
+               transform: rotate(0);
+           }
+       }
