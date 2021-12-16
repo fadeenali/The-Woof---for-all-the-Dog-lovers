@@ -1,6 +1,6 @@
        #title {
-           background-color: #ff4c68;
-           color: #fff;
+           background-color: #092942;
+           color: rgb(133, 225, 241);
            padding: 6% 15%;
        }
        
@@ -15,18 +15,22 @@
            padding-bottom: 90px;
        }
        
-       .navbar-brand {
-           font-family: ;
-           font-size: 3.2rem;
-           font-weight: bold;
-       }
-       
        .nav-item {
            padding: 0% 0%;
        }
        
+       .nav-item:hover {
+           color: rgb(182, 207, 236);
+       }
+       
        .download-button {
            margin: 5% 3% 5% 3%;
+           background-color: rgb(102, 169, 245);
+       }
+       
+       .download-button:hover {
+           background-color: rgb(104, 178, 247);
+           color: #092942;
        }
        
        .title-img {
@@ -55,18 +59,33 @@
        
        .icon {
            padding: 20px;
-           color: #ef8172;
+           color: #6994f1;
        }
        
        .icon:hover {
-           color: #ff4c68;
+           color: #092942;
        }
        
        #testimonials {
            padding: 7% 15%;
            text-align: center;
-           background-color: #ef8172;
-           color: whitesmoke;
+           background-color: #092942;
+           color: rgb(133, 225, 241);
+           height: 95vh;
+       }
+       
+       .owner {
+           color: #fff;
+       }
+       
+       .card-header {
+           background-color: #092942;
+           color: rgb(133, 225, 241);
+       }
+       
+       .btn {
+           background-color: #092942;
+           color: rgb(133, 225, 241);
        }
        
        .testimonial-image {
@@ -75,12 +94,13 @@
        }
        
        #press {
-           background-color: #ef8172;
+           background-color: #092942;
            text-align: center;
        }
        
        .press-logo {
            width: 15%;
+           margin-bottom: 10px;
        }
        
        #pricing {
@@ -94,8 +114,8 @@
        
        #cta {
            text-align: center;
-           background-color: #ff4c68;
-           color: #ffff;
+           background-color: #103450;
+           color: rgb(133, 225, 241);
            font-weight: bold;
            padding: 7% 15%;
        }
@@ -112,6 +132,15 @@
        
        .social-icon {
            padding: 20px 10px;
+       }
+       
+       .social-icon:hover {
+           color: rgb(22, 136, 243);
+       }
+       
+       .navbar-brand {
+           size: 200px;
+           margin-bottom: 100px;
        }
        
        @media (max-width:1028px) {
